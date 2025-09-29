@@ -20,5 +20,5 @@ class EmployeeOut(EmployeeBase):#data is  being sent
         orm_mode=True
 
 
-        #jo bho cpmmon fields hai usko basde model mein define kr denge but jo specifuc hainusk alg se define kr sajye ahin 
-#name and email are only required to creat an emolpyee as id is auto dgenerated 
+        #jo bho common fields hai usko employeebase mein define kr denge but jo specifuc hain usko alag se define kr sakte hain 
+#name and email are only required to creat an emolpyee as id is auto generated 

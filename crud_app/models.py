@@ -1,11 +1,11 @@
-from sqlalchemy import column,Integer,String
+from sqlalchemy import Column,Integer,String
 from database import Base
 
 
 class Employee(Base):
     __tablename__="employees"
-    id=column(Integer,primary_key=True,index=True)
-    name=column(String,index=True)
-    email=column(String,unique=True,index=True)
+    id=Column(Integer,primary_key=True,index=True)
+    name=Column(String,index=True)
+    email=Column(String,unique=True,index=True)
     #index=for faster retrieval \
     #classs emplyeee ka schemsa define ho rha hai 
